@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">Legacy CV study: generalized workflow</title>
+  <desc id="desc">An original explanatory diagram of reported workflow stages, not an execution result.</desc>
+  <rect width="1200" height="390" rx="22" fill="#101b2e"/>
+  <g font-family="Arial, sans-serif">
+    <text x="46" y="55" fill="#65d6ce" font-size="16" letter-spacing="2">ENGINEERING CASE STUDY</text>
+    <text x="46" y="101" fill="#f3f6fc" font-size="32" font-weight="700">Observe the pipeline. Separate the evidence.</text>
+    <text x="46" y="135" fill="#bdc9df" font-size="17">Reported workflow, generalized for documentation</text>
+    <g fill="#21324e" stroke="#51698c" stroke-width="1.5">
+      <rect x="46" y="181" width="194" height="98" rx="12"/>
+      <rect x="274" y="181" width="194" height="98" rx="12"/>
+      <rect x="502" y="181" width="194" height="98" rx="12"/>
+      <rect x="730" y="181" width="194" height="98" rx="12"/>
+      <rect x="958" y="181" width="194" height="98" rx="12"/>
+    </g>
+    <g fill="#f3f6fc" font-size="18" text-anchor="middle">
+      <text x="143" y="218">Input checks</text><text x="143" y="247">Preprocessing</text>
+      <text x="371" y="218">Segmentation</text><text x="371" y="247">Review</text>
+      <text x="599" y="218">Training</text><text x="599" y="247">Loss observation</text>
+      <text x="827" y="218">Export</text><text x="827" y="247">Inference</text>
+      <text x="1055" y="218">Post-processing</text><text x="1055" y="247">Quality review</text>
+    </g>
+    <g stroke="#65d6ce" stroke-width="3" fill="none">
+      <path d="M244 230h25m-7-7 7 7-7 7M472 230h25m-7-7 7 7-7 7M700 230h25m-7-7 7 7-7 7M928 230h25m-7-7 7 7-7 7"/>
+    </g>
+    <text x="46" y="332" fill="#bdc9df" font-size="17">Partial logs and observations remain. Complete modernization is unverified.</text>
+    <text x="46" y="359" fill="#93a8c8" font-size="14">New explanatory artwork · No original outputs · Not a model architecture</text>
+  </g>
+</svg>

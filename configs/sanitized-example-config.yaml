@@ -1,0 +1,28 @@
+# New documentation example; not a recovered training preset.
+# No loader consumes this file. No model or dataset is configured.
+schema_version: 1
+purpose: documentation_only
+executable: false
+created_for: modernization_study
+
+training_topics:
+  resolution_choices: [256, 320]  # Reported choices, not a completed sweep.
+  batch_choices: [8, 16]         # Observations were not controlled comparisons.
+  model_family: encoder_decoder
+  optimizer_example: AdaBelief
+  geometric_augmentation_choices: [true, false]
+  learning_rate_dropout_choices: [true, false]
+  initial_state_reuse: discussed_and_attempted
+
+validation_plan:
+  reference_available: false
+  parity_verified: false
+  performance_improvement_verified: false
+  precision_baseline_proposal: fp32
+  numerical_tolerance: null     # Must be justified before an actual comparison.
+
+benchmark_template:
+  workload: cpu_arithmetic_demo_only
+  warmup: 3
+  repeats: 20
+  reads_this_config: false
